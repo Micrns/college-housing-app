@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-page{
+
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+    width: 100%;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-page #header{
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 40px;
+    color: #EBC1E7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-top: 10px;
+
+
+}
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #EBC1E7;
+    font-family: "Fredoka One";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar li img{
+    width: 30px;
+    
+
+    
+
 }
+
+.navbar li a:hover{
+    color:#75667A;
+    
+}
+
+/* Search bar */
+
+.search-bar input{
+    border-radius: 30px;
+    width: 638px;
+    height: 67px;
+    font-size: 12px;
+    font-family: "Fredoka One";
+    outline: none;
+
+}
+
+

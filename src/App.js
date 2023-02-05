@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useEffect, useState } from "react";
+import "./App.css";
+import profileIcon from "./icons/profile-circle-svgrepo-com.svg"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+// function that will display the main page of the web app
+const App = () =>{
+    return(
+
+        <div className= "main-page">
+            <div className="navbar">
+                <ul>
+                    <li><a href="">Make a Listing</a></li>
+                    <li><a href="">Signup</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><img src = {profileIcon} alt = "profile-icon"/></li>
+                    
+                </ul>
+                
+            </div>
+            <div className="search-bar">
+                <input placeholder="Search your school...."></input>
+            </div>
+            <span id = "header">Find a place to rent near your school, easily!!</span>
+        </div>
+    );
+
 }
+
 
 export default App;
