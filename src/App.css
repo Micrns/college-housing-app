@@ -19,6 +19,13 @@
     color: white;
     font-size: 40px;
     color: #EBC1E7;
+
+    position: absolute;
+    top: 60%;
+    left: 5%;
+
+    width: 748px;
+    
 }
 
 .navbar ul{
@@ -65,7 +72,28 @@
     font-size: 12px;
     font-family: "Fredoka One";
     outline: none;
+    text-indent: 80px;
+    
 
 }
+
+.search-bar{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.search-bar img{
+    position: absolute;
+    width: 30px;
+    z-index: 1;
+    cursor: pointer;
+
+    right: 91%;
+    top: 28%;
+
+}
+
+
 
 
