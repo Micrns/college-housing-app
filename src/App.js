@@ -6,7 +6,7 @@ import searchIcon from "./icons/search-svgrepo-com.svg"
 import Carousel from "./components/carousel";
 import { schools } from "./components/data";
 
-import UCI from "./university-logo/California-Irvine-Anteaters-Logo.png"
+
 
 // function that will display the main page of the web app
 const App = () =>{
