@@ -1,0 +1,22 @@
+
+.carusel-wrapper{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+
+.cards{
+    display: flex;
+    flex:1;
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+    
+}
+
+.cards img{
+    width: 350px;
+    background: linear-gradient(0deg, rgba(48, 30, 166, 0.2), rgba(48, 30, 166, 0.2)), linear-gradient(0deg, rgba(79, 69, 140, 0.2), rgba(79, 69, 140, 0.2)), #75667A;
+
+}

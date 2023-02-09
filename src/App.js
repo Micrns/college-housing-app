@@ -1,11 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./styles/App.css";
 import profileIcon from "./icons/profile-circle-svgrepo-com.svg"
 import searchIcon from "./icons/search-svgrepo-com.svg"
+import Carousel from "./components/carousel";
+import { schools } from "./components/data";
 
-
-
+import UCI from "./university-logo/California-Irvine-Anteaters-Logo.png"
 
 // function that will display the main page of the web app
 const App = () =>{
@@ -25,6 +26,11 @@ const App = () =>{
             <div className="search-bar">
                 <input placeholder="Search your school...."></input>
                 <img src = {searchIcon} alt = "search-icon"/>
+            </div>
+
+            <div className="caoursel">
+                <Carousel images = {schools}/>
+                
             </div>
             <span id = "header">Find a place to rent near your school, easily!!</span>
         </div>
