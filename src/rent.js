@@ -30,7 +30,7 @@ const Rent = () =>{
 
         <div className="sidemenu">
             <div className="distance-section">
-                <span>Distance</span>
+                <span className="Dis">Distance</span>
                 <div className="chec-distance">
                     <ul>
                         <li><input type = "checkbox" name = "distance-1"></input>
@@ -49,17 +49,18 @@ const Rent = () =>{
 
             <div className="price-measure">
 
-                <span>Price</span>
+                <span className="Pri">Price</span>
+                <span className="label">$400-$1500</span>
                 <div className="range-price">
                     <input type= "range" name="price-range" min = "400" max = "1500"  step = "100"></input>
-                    <label for = "price-range">$400-$1500</label>
+                    
                 </div>
              
             </div>
 
 
             <div className="room-section">
-                <span>Rooming Situation</span>
+                <span className="Roo">Rooming Situation</span>
                 <div className="chec-room">
                     <ul>
                         <li><input type = "checkbox" name = "room-1"></input>
