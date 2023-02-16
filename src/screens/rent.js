@@ -1,17 +1,17 @@
 import React from "react";
-import "./styles/rent.css";
-import "./styles/App.css";
-import profileIcon from "./icons/profile-circle-svgrepo-com.svg"
-import searchIcon from "./icons/search-svgrepo-com.svg"
+import "../styles/rent.css";
+import "../styles/App.css";
+import profileIcon from "../icons/profile-circle-svgrepo-com.svg"
+import searchIcon from "../icons/search-svgrepo-com.svg"
 
-import UCIIcon from "./university-logo/California-Irvine-Anteaters-Logo.png"
+import UCIIcon from "../university-logo/California-Irvine-Anteaters-Logo.png"
 const Rent = () =>{
     return(
     <div className="rent-page">
 
         <img className = "school-icon" src={UCIIcon} alt = ""></img>
 
-        <div className="navbar">
+        <div className="navbar-1">
             <div className="search-housing">
                 <input type = "search" placeholder= "Enter your school..."></input>
                 <img src = {searchIcon} alt = "search"/>
